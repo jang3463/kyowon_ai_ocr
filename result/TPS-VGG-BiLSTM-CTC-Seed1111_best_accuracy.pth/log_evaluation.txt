@@ -1,0 +1,3 @@
+dataset_root:    data_lmdb/test	 dataset: /
+sub-directory:	/.	 num samples: 74121
+0.000
