@@ -27,11 +27,11 @@ https://dacon.io/competitions/official/236042/overview/description
   - id : 샘플 고유 id
   - img_path : 샘플 이미지 파일 경로
 
-
+<img width="275" alt="image" src="https://github.com/jang3463/kyowon_ai_ocr/assets/70848146/a797e391-b644-40af-8ae9-4981f5a5a148">
 
 ## 3. 수행방법
 <!-- Write Overview about this project -->
-- 본 과제는 블랙박스 영상으로부터 자동차의 충돌 상황을 분석하는 AI 모델을 개발하는 것
+- 본 과제는 손글씨 폰트 이미지를 바탕으로 Text Recognition을 수행하는 인식 AI 모델을 개발하는 
 - 본 데이터의 LABEL의 위의 이미지처럼 분할이 가능함
 - label을 crash, weather, timing으로 분할하여 multi_label_classification 문제로 변환
 - 모델로는 slowfast_r101, MVITv2_B_32x3, r3d_18을 사용해본 결과, r3d_18이 성능이 가장 좋았음
