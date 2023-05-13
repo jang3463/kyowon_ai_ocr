@@ -1,31 +1,33 @@
 # KYOWAN X DACON AI OCR
 ## 1. 개요
-https://dacon.io/competitions/official/236064/overview/description
-  - 주제 : 블랙박스 영상의 자동차 충돌 분석 AI 알고리즘 개발
-  - Task : Video Classification
-  - 기간 : 2023.02.06 ~ 2023.03.13
-  - 결과 : 24등 / 449
+https://dacon.io/competitions/official/236042/overview/description
+  - 주제 : 손글씨 인식 AI 모델 개발
+  - Task : Text Recognition, OCR
+  - 기간 : 2022.12.26 ~ 2023.01.16
+  - 결과 : 26등 / 430
 <!--  Other options to write Readme
   - [Deployment](#deployment)
   - [Used or Referenced Projects](Used-or-Referenced-Projects)
 -->
 ## 2. 데이터셋 설명
 <!--Wirte one paragraph of project description --> 
-- train(폴더) :  학습용 차량 블랙박스 영상, TRAIN_0000.mp4 ~ TRAIN_2697.mp4
+- train(폴더) : 폰트 손글씨 학습 데이터, TRAIN_00000.png ~ TRAIN_76887.png
 
-- test(폴더) : 평가용 차량 블랙박스 영상, TEST_0000.mp4 ~ TEST_1799.mp4
+
+- test(폴더) :  폰트 손글씨 평가 데이터, TEST_00000.png ~ TEST_74120.png
 
 
 - train.csv
-  - sample_id : 영상 샘플 고유 id
-  - video_path : 학습용 차량 블랙박스 영상 경로
-  - label : 13가지의 차량 충돌 상황
+  - id : 샘플 고유 id
+  - img_path : 샘플 이미지 파일 경로
+  - label : 샘플 이미지에 해당하는 Text
+
 
 - test.csv
-  - sample_id : 영상 샘플 고유 id
-  - video_path : 학습용 차량 블랙박스 영상 경로
+  - id : 샘플 고유 id
+  - img_path : 샘플 이미지 파일 경로
 
-<img width="700" height="800" alt="image" src="https://github.com/jang3463/dacon_car_crash/assets/70848146/13c17d46-a5c2-48da-b07b-dab3a9b2cc1d">
+
 
 ## 3. 수행방법
 <!-- Write Overview about this project -->
