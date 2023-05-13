@@ -31,7 +31,7 @@ https://dacon.io/competitions/official/236042/overview/description
 
 ## 3. 수행방법
 <!-- Write Overview about this project -->
-- 본 과제는 손글씨 폰트 이미지를 바탕으로 Text Recognition을 수행하는 인식 AI 모델을 개발하는 
+- 본 과제는 손글씨 폰트 이미지를 바탕으로 Text Recognition을 수행하는 인식 AI 모델을 개발하는 것
 - 네이버 클로바 deep-text-recognition 모델에 VITSTR 모델 추가 적용
 - CUTMIX 기법을 사용해서 data augmentation 적용
 - 최종적으로 accuracy 0.87485 달성
