@@ -11,7 +11,8 @@ https://dacon.io/competitions/official/236042/overview/description
 -->
 ## 2. 데이터셋 설명
 <!--Wirte one paragraph of project description --> 
-<img width="275" alt="image" src="https://github.com/jang3463/kyowon_ai_ocr/assets/70848146/a797e391-b644-40af-8ae9-4981f5a5a148">  
+<img width="275" alt="image" src="https://github.com/jang3463/kyowon_ai_ocr/assets/70848146/a797e391-b644-40af-8ae9-4981f5a5a148">
+<img width="275" alt="image" src="https://github.com/jang3463/kyowon_ai_ocr/assets/70848146/0edb2333-735c-4692-9fa0-dc8cfb675b8b">
 
 - train(폴더) : 폰트 손글씨 학습 데이터, TRAIN_00000.png ~ TRAIN_76887.png
 
